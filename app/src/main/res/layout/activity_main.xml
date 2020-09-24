@@ -11,15 +11,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="50px"
-        andro
+        android:paddingTop="50px"
+        android:textSize="40px"
         android:text="@string/h3_date_text"
+    />
+
+    <TextView
+        android:id="@+id/lbl_date_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50px"
+        android:textSize="40px"
     />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="50px"
+        android:textSize="40px"
         android:text="@string/h3_time_text"
     />
+
+    <TextView
+        android:id="@+id/lbl_time_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50px"
+        android:textSize="40px"
+        />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
