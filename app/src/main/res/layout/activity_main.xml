@@ -10,9 +10,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="50px"
-        android:paddingTop="50px"
-        android:textSize="50px"
+        android:paddingLeft="@dimen/text_padding_left"
+        android:paddingTop="@dimen/text_padding_top"
+        android:textSize="@dimen/text_size"
         android:text="@string/date_text"
     />
 
@@ -21,14 +21,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="50px"
-        android:textSize="50px"
+        android:textSize="@dimen/text_size"
     />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="50px"
-        android:textSize="50px"
+        android:paddingLeft="@dimen/text_padding_left"
+        android:textSize="@dimen/text_size"
         android:text="@string/time_text"
     />
 
@@ -36,8 +36,8 @@
         android:id="@+id/lbl_time_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="50px"
-        android:textSize="50px"
+        android:paddingLeft="@dimen/text_padding_left"
+        android:textSize="@dimen/text_size"
         />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Asignando variables de TextView via Id.
         TextView lblDate = findViewById(R.id.lbl_date_id);
         TextView lblTime = findViewById(R.id.lbl_time_id);
 
